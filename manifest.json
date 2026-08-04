@@ -1,11 +1,11 @@
 {
-  "version": "1.7.12",
-  "generated": "2026-08-04T02:03:14+00:00",
+  "version": "1.7.13",
+  "generated": "2026-08-04T02:05:40+00:00",
   "files": [
     {
       "path": "auto_updater/updater.py",
-      "size": 10104,
-      "sha256": "5c66d7c28c7c3c5ad4418d15a50f6207b0139f75d8f0f24c1f3affcb92950d96"
+      "size": 10128,
+      "sha256": "4aa55d6b9a5d05a7d71280c7c4ea19933810c2e979cfd17d4b88856e5b33347d"
     },
     {
       "path": "combat/__init__.py",
@@ -144,8 +144,8 @@
     },
     {
       "path": "version.json",
-      "size": 90,
-      "sha256": "1545d827d9512a1e44ba6a1b0d33c0e04e77c4e1983046983e8aa944826657fd"
+      "size": 95,
+      "sha256": "5eb95d89a348cfa1dc9da2f941977f2e2983e0b632dbfde1c7b1da955394925e"
     }
   ]
 }

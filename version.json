@@ -1,4 +1,4 @@
 {
-  "version": "1.7.12",
-  "changelog": "Correcao dos hashes do manifest (line endings)"
+  "version": "1.7.13",
+  "changelog": "Updater ignora diff CRLF/LF na comparacao de hashes"
 }
