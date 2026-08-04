@@ -74,7 +74,7 @@ def show_settings (ui_module ):
         f"Color: {'ON'if CONFIG .color_enabled else 'OFF'}",
         f"Auto Save: {'ON'if CONFIG .auto_save else 'OFF'}",
         f"Auto Update: {'ON'if CONFIG .auto_update else 'OFF'}",
-        "Verificar Atualizacao Agora",
+        "Verificar Atualizacao Agoora",
         f"Modo de Input: {c ('MOBILE (numeros)'if CONFIG .is_mobile ()else 'PC (setas)',Color .BRIGHT_CYAN )}",
         "Voltar",
         ]
