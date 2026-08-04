@@ -1,6 +1,6 @@
 {
-  "version": "1.7.9",
-  "generated": "2026-08-04T01:50:11+00:00",
+  "version": "1.7.10",
+  "generated": "2026-08-04T01:53:18+00:00",
   "files": [
     {
       "path": "auto_updater/updater.py",
@@ -144,8 +144,8 @@
     },
     {
       "path": "version.json",
-      "size": 46,
-      "sha256": "e0a38507363366982b3fea4ec7f0c71528f523e9a96b4932e2bb251b83a37c84"
+      "size": 78,
+      "sha256": "c113e7f7c36353ddd487abe48a871690fa3334ed4d480f99c61b8cf68d5f234a"
     }
   ]
 }
