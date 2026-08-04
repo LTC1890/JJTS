@@ -36,6 +36,7 @@ def sha256_file(path):
     h = hashlib.sha256()
     with open(path, "rb") as f:
         for chunk in iter(lambda: f.read(65536), b""):
+            chunk = chunk.replace(b"\r\n", b"\n")
             h.update(chunk)
     return h.hexdigest()
 
@@ -45,7 +46,9 @@ def main():
     parser.add_argument("-c", "--changelog", default="", help="Notas da versao")
     args = parser.parse_args()
 
-    with open(os.path.join(GAME_DIR, "version.json"), "w", encoding="utf-8") as f:
+    with open(
+        os.path.join(GAME_DIR, "version.json"), "w", encoding="utf-8", newline="\n"
+    ) as f:
         json.dump(
             {"version": args.version, "changelog": args.changelog},
             f,
@@ -79,7 +82,9 @@ def main():
         ),
         "files": files,
     }
-    with open(os.path.join(GAME_DIR, "manifest.json"), "w", encoding="utf-8") as f:
+    with open(
+        os.path.join(GAME_DIR, "manifest.json"), "w", encoding="utf-8", newline="\n"
+    ) as f:
         json.dump(manifest, f, indent=2, ensure_ascii=False)
 
     total = sum(fi["size"] for fi in files)

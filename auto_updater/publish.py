@@ -80,12 +80,17 @@ def main():
         sys.exit(1)
 
     print("\n=== 3. Commit + tag ===")
-    run(["git", "add", "-A"])
+    if run(["git", "add", "-A"]).returncode != 0:
+        print("Falha no git add - abortando")
+        sys.exit(1)
     message = f"v{args.version}"
     if args.changelog:
         message += f" - {args.changelog}"
-    run(["git", "commit", "-m", message])
-    run(["git", "tag", f"v{args.version}"])
+    if run(["git", "commit", "-m", message]).returncode != 0:
+        print("Falha no git commit - abortando")
+        sys.exit(1)
+    if run(["git", "tag", f"v{args.version}"]).returncode != 0:
+        print(f"Aviso: tag v{args.version} ja existe? Continuando mesmo assim.")
 
     if args.no_push:
         print("\n--no-push: tudo pronto localmente. Para publicar:")

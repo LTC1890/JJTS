@@ -1,151 +1,151 @@
 {
-  "version": "1.7.10",
-  "generated": "2026-08-04T01:53:18+00:00",
+  "version": "1.7.12",
+  "generated": "2026-08-04T02:03:14+00:00",
   "files": [
     {
       "path": "auto_updater/updater.py",
       "size": 10104,
-      "sha256": "c893c40f64d7456f3310b3bad54e8dc0f1ee69450c4c72ed3a5ad9eca540648a"
+      "sha256": "5c66d7c28c7c3c5ad4418d15a50f6207b0139f75d8f0f24c1f3affcb92950d96"
     },
     {
       "path": "combat/__init__.py",
       "size": 277,
-      "sha256": "f8ece20ea18cc3b479a60e0bf19b7b2818432284496e03f75a6273fd0ac1cd5b"
+      "sha256": "35cb70aee2212f42db41757c5fdabb135df6e4c73fb336af79d123dcbca90467"
     },
     {
       "path": "combat/common.py",
       "size": 1276,
-      "sha256": "16f20c1a2ff74fc0f8312a234f1cfa9fd390dfa5fbfd03c92f95ce89141ab657"
+      "sha256": "5277683c66868c28c70a96f6e98b0c5f5115f6a955ceb92246ff72860f7a1701"
     },
     {
       "path": "combat/core.py",
       "size": 31385,
-      "sha256": "dfb5f5aaa628689ebfef98ab88f87846934e9f79394910542ad43191fa60d637"
+      "sha256": "736713e963050f13994e801f73c4cfec26a3c2320a33dee27ce93e13caade2c4"
     },
     {
       "path": "combat/enemy_ai.py",
       "size": 36595,
-      "sha256": "aea648152fb4ecc60f8e0f3139c473d65c6921bfc9d90f89097d81113512a13f"
+      "sha256": "287c5171c91284d4f1184db81f7c8b4da01cd3b607899e7bfd5644b647f104f7"
     },
     {
       "path": "combat/player_actions.py",
       "size": 94289,
-      "sha256": "890b9c3e5e822748b6f0b34e60f752f363e5f33627a29d70cbb6fe8db6d1e7d8"
+      "sha256": "a25bde8bd034d8832256eec7d457d4242a92beee6c49d2112f45d542de2b1c1d"
     },
     {
       "path": "combat/rewards.py",
       "size": 9989,
-      "sha256": "40b3fbc58d9d8980ba820a46c892890118bf549aa14292887c96677980d9059e"
+      "sha256": "cbc68637292bd639fc6b5ce9ef428b8d1820b6b7b2720b060e7ae974d7724c58"
     },
     {
       "path": "config.py",
       "size": 5808,
-      "sha256": "495f1fc03a20303b2b002679bf12b071d98d8a6f3262886bf69e07b761f0fb6f"
+      "sha256": "2e8431bf756c9d593fbeb3664171f30fcc93b81e2707811f4f137c69b7e9c69f"
     },
     {
       "path": "data/enemies.py",
       "size": 55638,
-      "sha256": "5b090b8fca1c7b6e80a67315b93a5ecbc110ab95de3e3c188e1750253dc1b3ff"
+      "sha256": "407202133e75dd08099331b7fcfa624250d1f84e64d91097256a0dd8bdae2f2e"
     },
     {
       "path": "data/generator.py",
       "size": 23722,
-      "sha256": "6b5a3590b8e7002050928119d79ec3261dbb447bd88b380d57035034bf014187"
+      "sha256": "3334ac12a41a773197ee26524f7e338735c793285b3afb62e7ac2c943eb3fae6"
     },
     {
       "path": "data/items.py",
       "size": 19194,
-      "sha256": "0f7bd50d21edf6e329f12c56e4d7fc51e231441281005c5e5a2649d8f560ead1"
+      "sha256": "1f5a4f4ba4442464211a22ff86a5909b385fa051ebfcf6e6907f761917dd208c"
     },
     {
       "path": "data/techniques.py",
       "size": 47914,
-      "sha256": "174c526b78ea65bf7cd895f0edbe538877bb4fc2d26f369e12ec12ae592f5b7a"
+      "sha256": "5416ba58771cd18fe008ae6a9666d70c059354455b69ec8779cbcfc6ea71f906"
     },
     {
       "path": "interface/keyboard_input.py",
       "size": 8029,
-      "sha256": "42b1a56e8973259b74aaee64f9774a451c6f9b01db6ed2fcb3d49203d34ee3e7"
+      "sha256": "6ff5a344f2e0dbd5648b5ad24bba65d985f5cab3edb6bffc9ce9719bfb17167f"
     },
     {
       "path": "interface/mobile.py",
       "size": 6410,
-      "sha256": "6440f36876c1126b699ed235960cd0cd90081cab4adc9b13a1c118f38017fe68"
+      "sha256": "fb6ae45c88ecc3edad42baf8b566b5c6ab6c2c471b9a047ddd9f6d366165b3c5"
     },
     {
       "path": "interface/ui.py",
       "size": 15376,
-      "sha256": "c141a3535f336744ed492578a2ee40c7e0032556c4d9bac42fe63106abf848f9"
+      "sha256": "9a7f75e82727efdae14fa27681ca00b4d9e3e05633a03d1dac619c43dda777f9"
     },
     {
       "path": "main.py",
       "size": 50057,
-      "sha256": "2325a6b314f12fcf444463412ad7a5184021488ffc61ef6290e6e0e09bb4a260"
+      "sha256": "ff1eb50df15053c79343948617b8b9002a43d382a297b8fda0c825b86b9edfd4"
     },
     {
       "path": "systems/allies.py",
       "size": 16527,
-      "sha256": "12600eee536aa1be61013b679f4c680b71111af7a66ef3ae0c81e27d5cb79bd9"
+      "sha256": "8adc3390da4d8925294ffc8c16a677dd7ac9c7cd9a770c04d192a0354045af31"
     },
     {
       "path": "systems/dungeon.py",
       "size": 31380,
-      "sha256": "aa59cb9c314e7d89acf3a36b7f2bf77ba5b00bcbec27319dcbf23c12037bf877"
+      "sha256": "575e4405b1b219f2b6bb4017e8a659a551d4f8badd41329eccc907948bb9aa5a"
     },
     {
       "path": "systems/events.py",
       "size": 21106,
-      "sha256": "a2bcad7f0c8668e9f0b0c9032325494b061f86a24cbf3c9135ee5be71841c089"
+      "sha256": "46ea941e7fcde7ea251f1db41466e620f402db3e63a01ec1add1612ef7529f63"
     },
     {
       "path": "systems/karma.py",
       "size": 3705,
-      "sha256": "ed7bdd76fffdcfd4a477869fcaf5620e76800f2f48096e7ed55e7c259e720643"
+      "sha256": "078b9bf6dd0808249283372238ba23ad91810721ef213babaa65c18b7be9d29c"
     },
     {
       "path": "systems/mahoraga.py",
       "size": 8304,
-      "sha256": "b33632cc9c57694c6f4cb0d5327974922f46b7f002d4afca50831d6708a8e666"
+      "sha256": "350c2354b0c8508279ae289825d15c4f3ec7c4eb261ef71cc4ea2ede87196cad"
     },
     {
       "path": "systems/mentors.py",
       "size": 12221,
-      "sha256": "949da8fe8189dadab03508e050811bdbab14af0b035114d34b8e7030b08b8c3d"
+      "sha256": "75135930ddc6db822bf066cfc688a8dd0928471d79a5d8e48a94618b472f2359"
     },
     {
       "path": "systems/mission_generator.py",
       "size": 12976,
-      "sha256": "b297a861efc5644bef549f398229d19ee85825635e433cda64923edb69315d0e"
+      "sha256": "9b8bf56b285c18b06a05deb856eda454d38d5998ef8a2ff8a5dab7f900494c60"
     },
     {
       "path": "systems/missions.py",
       "size": 27627,
-      "sha256": "fc788339154083c51eb3ba5aa9cc02d7083cc5f50248dfc4cfc5d9000d56878e"
+      "sha256": "02b8c8e6b8373c7621e21022794ef8fa79060348097cb0fbdc3bcf614ad41351"
     },
     {
       "path": "systems/player.py",
       "size": 63746,
-      "sha256": "1691a71d27a9509d5a19a7402247447d0ecda7604be2659330b0d20618a1f5b8"
+      "sha256": "b4ea87fbf5c4bc598e3870b861791561198e9bd614dd123b9d2ae266609b159a"
     },
     {
       "path": "systems/rank_system.py",
       "size": 3569,
-      "sha256": "0d191eeba27fd6b36d971bb23ecc0e51c3cced4a60df7ce20e9a91605f665e4b"
+      "sha256": "c5c87c2e735797441f20540585a0af14a2e75faea85c2b2185c6778081e5b713"
     },
     {
       "path": "systems/save_system.py",
       "size": 16264,
-      "sha256": "62a02e06999d7e4ded50022752de52087c16963df5d9d1e7f0b892e383390c87"
+      "sha256": "e814935e700c62b05b1f8072e423541899cc86d71dc01b1fe2365fa3e60d9743"
     },
     {
       "path": "systems/shikigami.py",
       "size": 10098,
-      "sha256": "f25f764ba4bdadc4e7df573a1393e2e16cd3436b5d8265e14c60849ac4109e9c"
+      "sha256": "c5cfc63d98174f46298ab846d765a921961f58e0d7dc11296021fd6f1838440d"
     },
     {
       "path": "version.json",
-      "size": 78,
-      "sha256": "c113e7f7c36353ddd487abe48a871690fa3334ed4d480f99c61b8cf68d5f234a"
+      "size": 90,
+      "sha256": "1545d827d9512a1e44ba6a1b0d33c0e04e77c4e1983046983e8aa944826657fd"
     }
   ]
 }

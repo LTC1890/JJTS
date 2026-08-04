@@ -1,4 +1,4 @@
 {
-  "version": "1.7.10",
-  "changelog": "Teste de atualizacao automatica"
+  "version": "1.7.12",
+  "changelog": "Correcao dos hashes do manifest (line endings)"
 }
